@@ -1,4 +1,6 @@
 ﻿#include "pch.h"
+#pragma comment(linker, "/subsystem:windows")
+#pragma comment(linker, "/entry:mainCRTStartup")
 
 using namespace winrt;
 using namespace Windows::Devices::Radios;
